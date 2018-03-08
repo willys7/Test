@@ -17,12 +17,13 @@ def index(request):
     for x in users:
         print(x)
         print(x.emailUser)
-        send_mail(
-        'new email alert from www.fakedomain.com',
-        'Hello <<User.nameUser>>, we came to say howdy!',
-        'wilfuentes0320@gmail.com',
-        [str(x.emailUser)],
-        fail_silently=False,)
+        #Esto da error y no deja enviar el email
+        #send_mail(
+        #'new email alert from www.fakedomain.com',
+        #'Hello <<User.nameUser>>, we came to say howdy!',
+        #'wilfuentes0320@gmail.com',
+        #[str(x.emailUser)],
+        #fail_silently=False,)
 
 
     context = {}
