@@ -1,0 +1,112 @@
+.container {
+  position: relative; }
+
+.container .red {
+  border: 2px solid black;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  text-align: center;
+  transition: 1s;
+  width: 100px;
+  background: red; 
+  left: 0;
+  top: 525px; }
+
+.container .blue {
+  border: 2px solid black;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  text-align: center;
+  transition: 1s;
+  width: 100px;
+  background: blue; 
+  left: 375px;
+  top: 150px;
+  z-index: 2;}
+
+.container .black {
+  border: 2px solid black;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  text-align: center;
+  transition: 1s;
+  width: 100px; 
+  background: black; 
+  left: 225px;
+  top: 300px;
+  z-index: 0; }
+
+.container .green {
+  border: 2px solid black;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  text-align: center;
+  transition: 1s;
+  width: 100px;
+  background: green; 
+  left: 300px;
+  top: 225px; }
+
+.container .orange {
+  border: 2px solid black;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  text-align: center;
+  transition: 1s;
+  width: 100px; 
+  background: orange;
+  left: 75px;
+  top: 450px;
+  z-index: 3;}
+
+.container .yellow {
+  border: 2px solid black;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  text-align: center;
+  transition: 1s;
+  width: 100px; 
+  background: yellow;
+  left: 150px;
+  top: 375px;
+  z-index: 2;} 
+
+.container .purple {
+  border: 2px solid black;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  text-align: center;
+  transition: 1s;
+  width: 100px;
+  background: purple;  
+  left: 450px;
+  top: 75px;}
+
